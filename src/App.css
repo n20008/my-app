@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+    background-image: url("https://data.1freewallpapers.com/download/nebula-galaxy-stars-glow-space-universe.jpg");
+}
+body {
+    background-size: cover;
+}
+body {
+    background-attachment: fixed;
+}
+body {
+    background-position: center center;
+}
+
+.weather {
+    text-align:center
+}
+
+.weather {
+    color: #fff;
+}
+
+.weather {
+    font-weight: 900;
+}
+
+.weather {
+    font-size: 50px;
+}
+
+.yero {
+    color: #ffd700;
+}

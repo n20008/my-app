@@ -47,7 +47,7 @@ export default class extends React.Component {
 
     return (
       <div className='weather'>
-        <h1>天気</h1>
+        <h1 className='yero'>OpenWeatherMap!!</h1>
         <input
           type='text'
           value={this.state.requestCity}
