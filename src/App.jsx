@@ -1,16 +1,10 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 
 function App () {
   const [animeList, SetAnimeList] = useState([])
   const [search, SetSearch] = useState('')
-
-  const GetTopAnime = async () => {
-    const temp = await fetch(
-      `https://api.jikan.moe/v3/top/anime/1/bypopularity`
-    ).then(res => res.json())
-  }
 
   const HandleSearch = e => {
     e.preventDefault()
@@ -25,10 +19,6 @@ function App () {
 
     SetAnimeList(temp.results)
   }
-
-  useEffect(() => {
-    GetTopAnime()
-  }, [])
 
   return (
     <div className='App'>
