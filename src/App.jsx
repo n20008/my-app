@@ -21,9 +21,9 @@ function App () {
   }
 
   return (
-    <div className='App'>
+    <div>
       <Header />
-      <div className='content-wrap'>
+      <div>
         <MainContent
           HandleSearch={HandleSearch}
           search={search}
