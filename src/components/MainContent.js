@@ -8,7 +8,7 @@ function MainContent (props) {
         <form onSubmit={props.HandleSearch}>
           <input
             type='search'
-            placeholder='Search for an anime...'
+            placeholder='タイトルを入力'
             required
             value={props.search}
             onChange={e => props.SetSearch(e.target.value)}
