@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Header from './components/Header'
-import MainContent from './components/MainContent'
+import Header from './App/Header'
+import MainContent from './App/MainContent'
 
 function App () {
   const [animeList, SetAnimeList] = useState([])
